@@ -44,7 +44,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/EbotRawley/Frontend-Mentor-Notifications-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://notifications-page-frontendmentor1.netlify.app/)
 
 ## My process
 
