@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Notifications page</title>
+    <link rel="shortcut icon" href="/assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="container">
+            <div class="banner">
+                <div class="not_count">
+                    Notifications
+                    <span id="not_cnt">0</span>
+                </div>
+                <div class="not_action" id="mar" onclick="markAsRead()">
+                    Mark all as read
+                </div>
+            </div>
+            <div class="notifications">
+                <div class="notification unread">
+                    <div class="not_info">
+                        <div class="not_img">
+                            <img src="/assets/images/avatar-mark-webber.webp" alt="">
+                        </div>
+                        <div class="not_event">
+                            <div>
+                                <p class="not_text"><a href="#">Mark Webber</a> reacted to your recent post <a
+                                        href="#">My
+                                        first tournament
+                                        today!</a> <span id="unread" class="unread"></span></p>
+                                <p class="not_time">1m ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="notification unread">
+                    <div class="not_info">
+                        <div class="not_img">
+                            <img src="/assets/images/avatar-angela-gray.webp" alt="">
+                        </div>
+                        <div class="not_event">
+                            <div>
+                                <p class="not_text"><a href="#">Angela Gray</a> followed you <span id="unread"
+                                        class="unread"></span></p>
+                                <p class="not_time">5m ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="notification unread">
+                    <div class="not_info">
+                        <div class="not_img">
+                            <img src="/assets/images/avatar-jacob-thompson.webp" alt="">
+                        </div>
+                        <div class="not_event">
+                            <div>
+                                <p class="not_text"><a href="#">Jacob Thompson</a> has joined your group <a href="#"
+                                        id="group">Chess
+                                        Club</a> <span id="unread" class="unread"></span></p>
+                                <p class="not_time">1 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="notification">
+                    <div class="not_info">
+                        <div class="not_img">
+                            <img src="/assets/images/avatar-rizky-hasanuddin.webp" alt="">
+                        </div>
+                        <div class="not_event">
+                            <div>
+                                <p class="not_text"><a href="#">Rizky Hasanuddin</a> sent you a private message </p>
+                                <p class="not_time">5 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="not_content">
+                        <p>
+                            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm
+                            already having lots of fun and improving my game.
+                        </p>
+                    </div>
+                </div>
+                <div class="notification">
+                    <div class="not_info">
+                        <div class="not_img">
+                            <img src="/assets/images/avatar-kimberly-smith.webp" alt="">
+                        </div>
+                        <div class="not_event">
+                            <div>
+                                <p class="not_text">
+                                    <a href="#">Kimberly Smith </a> commented on your picture
+                                </p>
+                                <p class="not_time">1week ago</p>
+                            </div>
+
+                            <img src="/assets/images/image-chess.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="notification">
+                    <div class="not_info">
+                        <div class="not_img">
+                            <img src="/assets/images/avatar-nathan-peterson.webp" alt="">
+                        </div>
+                        <div class="not_event">
+                            <div>
+                                <p class="not_text"><a href="#">Nathan Peterson</a> reacted to your recent post <a
+                                        href="#">
+                                        5 end-game
+                                        strategies to increase your win rate</a> </p>
+                                <p class="not_time">2weeks ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="notification">
+                <div class="not_info">
+                    <div class="not_img">
+                        <img src="/assets/images/avatar-mark-webber.webp" alt="">
+                    </div>
+                    <div class="not_event">
+                        <div>
+                            <p class="not_text"><a href="#">Anna Kim</a> left the group <a href="#" id="group">Chess
+                                    Club</a> </p>
+                            <p class="not_time">2weeks ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="scrollT" id="stt" onclick="topFunction()">
+        <p>&#8593</p>
+        <span class="scrolltooltip" id="tt">Scroll To Top</span>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Ebot Rawley</a>.
+    </div>
+</body>
+
+</html>
