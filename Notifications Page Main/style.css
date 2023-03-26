@@ -37,8 +37,7 @@ body {
     padding: 0;
     width: 100%;
     font-weight: var(--fw-500);
-    font-weight: var(--fw-500);
-    background-color: var(--neutral4);
+    background-color: var(--neutral2);
 }
 
 .cont {
@@ -155,7 +154,7 @@ a:hover {
 }
 
 .unread {
-    background-color: var(--neutral4);
+    background-color: var(--neutral2);
 }
 
 .not_text .unread {
